@@ -36,6 +36,4 @@ basic.pause(1000)
     neopixelStrip.show()
     basic.pause(1000)
     basic.showIcon(IconNames.Happy) 
-
-
 })

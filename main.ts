@@ -15,12 +15,12 @@ neopixelStrip.show()
 
 // green
 input.onButtonPressed(Button.A, function () {
-basic.clearScreen()
-neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
-neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
-neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
-neopixelStrip.show()
-basic.pause(1000)
+    basic.clearScreen()
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+    neopixelStrip.show()
+    basic.pause(1000)
 
 // yellow
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
